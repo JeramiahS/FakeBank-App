@@ -18,11 +18,14 @@ public class LoginGUI extends BaseFrame {
 
         // Change font style
         fakeBankAppLabel.setFont(new Font("Dialog",Font.BOLD,32));
-
         // Center text in JLabel
         fakeBankAppLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
         // Add to GUI
         add(fakeBankAppLabel);
+
+        JLabel userName = new JLabel("Username:");
+        userName.setBounds(20,120,getWidth() - 30,24);
+
     }
 }
