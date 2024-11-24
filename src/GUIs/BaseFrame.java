@@ -34,4 +34,6 @@ public abstract class BaseFrame extends JFrame {
         // Launch the GUI in the center of the screen
         setLocationRelativeTo(null);
     }
+
+    protected abstract void addGuiComponents();
 }
