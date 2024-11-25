@@ -1,6 +1,7 @@
 package GUIs;
 
 import javax.swing.*;
+import java.awt.*;
 
 /*
     Creating an abstract class helps us set up the blueprint that our GUIs will follow. For example, in each of the
@@ -33,6 +34,9 @@ public abstract class BaseFrame extends JFrame {
 
         // Launch the GUI in the center of the screen
         setLocationRelativeTo(null);
+
+        // Set background color
+        getContentPane().setBackground(Color.darkGray);
 
         addGuiComponents();
     }

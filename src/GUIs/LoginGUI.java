@@ -15,12 +15,14 @@ public class LoginGUI extends BaseFrame {
         fakeBankAppLabel.setBounds(0, 20, super.getWidth(), 40);
         fakeBankAppLabel.setFont(new Font("Dialog", Font.BOLD, 32));
         fakeBankAppLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        fakeBankAppLabel.setForeground(Color.WHITE);
         add(fakeBankAppLabel);
 
         // Create username label
         JLabel userNameLabel = new JLabel("Username:");
         userNameLabel.setBounds(20, 120, getWidth() - 30, 24);
         userNameLabel.setFont(new Font("Dialog", Font.PLAIN, 20));
+        userNameLabel.setForeground(Color.WHITE);
         add(userNameLabel);
 
         // Create username field
@@ -33,6 +35,7 @@ public class LoginGUI extends BaseFrame {
         JLabel passwordLabel = new JLabel("Password:");
         passwordLabel.setBounds(20, 280, getWidth() - 50, 24);
         passwordLabel.setFont(new Font("Dialog", Font.PLAIN, 20));
+        passwordLabel.setForeground(Color.WHITE);
         add(passwordLabel);
 
         // Create password field
